@@ -14,6 +14,8 @@
 		2394749125A05CDC0089A8AC /* CoreDataCRUD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2394748F25A05CDC0089A8AC /* CoreDataCRUD.xcdatamodeld */; };
 		2394749325A05CDE0089A8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2394749225A05CDE0089A8AC /* Assets.xcassets */; };
 		2394749625A05CDE0089A8AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2394749425A05CDE0089A8AC /* LaunchScreen.storyboard */; };
+		2394749F25A063E70089A8AC /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394749E25A063E70089A8AC /* SignUpController.swift */; };
+		239474A225A0640D0089A8AC /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239474A125A0640D0089A8AC /* WelcomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2394749225A05CDE0089A8AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2394749525A05CDE0089A8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2394749725A05CDE0089A8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2394749E25A063E70089A8AC /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		239474A125A0640D0089A8AC /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,12 @@
 				2394748825A05CDC0089A8AC /* SceneDelegate.swift */,
 				2394748A25A05CDC0089A8AC /* ViewController.swift */,
 				2394748C25A05CDC0089A8AC /* Main.storyboard */,
+				239474A125A0640D0089A8AC /* WelcomeController.swift */,
 				2394749225A05CDE0089A8AC /* Assets.xcassets */,
 				2394749425A05CDE0089A8AC /* LaunchScreen.storyboard */,
 				2394749725A05CDE0089A8AC /* Info.plist */,
 				2394748F25A05CDC0089A8AC /* CoreDataCRUD.xcdatamodeld */,
+				2394749E25A063E70089A8AC /* SignUpController.swift */,
 			);
 			path = CoreDataCRUD;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239474A225A0640D0089A8AC /* WelcomeController.swift in Sources */,
+				2394749F25A063E70089A8AC /* SignUpController.swift in Sources */,
 				2394748B25A05CDC0089A8AC /* ViewController.swift in Sources */,
 				2394748725A05CDC0089A8AC /* AppDelegate.swift in Sources */,
 				2394749125A05CDC0089A8AC /* CoreDataCRUD.xcdatamodeld in Sources */,
